@@ -1,0 +1,16 @@
+{
+  "name": "spaceCalcDemo",
+  "version": "1.0.0",
+  "description": "* Github\r * Gitbash\r * Virtual Studio Code\r * HTML\r * Markdown\r * Jquery\r * Javascript\r * Bootstrap\r * CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
