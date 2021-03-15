@@ -18,4 +18,10 @@ export default class SpaceCalc {
     return this.mercury;
   }
 
+  venusYears() {
+    this.venus = Math.round(this.userAge * 0.62);
+    return this.venus;
+  }
+  
+
 }
