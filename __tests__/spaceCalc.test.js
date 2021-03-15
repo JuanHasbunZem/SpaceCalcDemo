@@ -4,7 +4,7 @@ describe('SpaceCalc', () => {
   let reusableCalc;
 
   beforeEach(() => {
-    reusableCalc = new SpaceCalc(7,1,2,3,4,5,78);
+    reusableCalc = new SpaceCalc(7,1,2,3,4,5);
   });
 
   test('should correctly create a SpaceCalc object', () => {
@@ -14,7 +14,6 @@ describe('SpaceCalc', () => {
     expect(reusableCalc.venus).toEqual(3);
     expect(reusableCalc.mars).toEqual(4);
     expect(reusableCalc.jupiter).toEqual(5);
-    expect(reusableCalc.avgLife).toEqual(78);
   });
 
   test('should convert userAge from earth to cooresponding planets years', () => {
