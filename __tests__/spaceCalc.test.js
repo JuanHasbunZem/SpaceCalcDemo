@@ -15,4 +15,8 @@ describe('SpaceCalc', () => {
     expect(reusableCalc.jupiter).toEqual(5);
     expect(reusableCalc.avgLife).toEqual(78);
   });
+
+  test('should convert userAge from years to days', () => {
+    expect(reusableCalc.convertAge()).toEqual(2555);
+  });
 });

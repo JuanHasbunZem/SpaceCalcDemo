@@ -9,5 +9,7 @@ $(document).ready(function() {
     event.preventDefault();
     const inputAge = $('#age').val();
     const listOfAges = new SpaceCalc(inputAge, 0, 0, 0, 0, 0);
+
+    listOfAges.convertAge();
   });
 });

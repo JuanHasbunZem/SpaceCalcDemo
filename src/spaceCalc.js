@@ -7,4 +7,9 @@ export default class SpaceCalc {
     this.jupiter = jupiter;
     this.avgLife = avgLife;
   }
+
+  convertAge() {
+    this.userAge = this.userAge * 365;
+    return this.userAge;
+  }
 }
