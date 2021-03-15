@@ -10,6 +10,5 @@ $(document).ready(function() {
     const inputAge = $('#age').val();
     const listOfAges = new SpaceCalc(inputAge, 0, 0, 0, 0, 0);
 
-    listOfAges.convertAge();
   });
 });

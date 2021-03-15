@@ -12,4 +12,10 @@ export default class SpaceCalc {
     this.userAge = this.userAge * 365;
     return this.userAge;
   }
+
+  mercYears() {
+    this.mercury = Math.round(this.userAge * 0.24);
+    return this.mercury;
+  }
+
 }

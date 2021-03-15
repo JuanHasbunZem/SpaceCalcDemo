@@ -19,4 +19,8 @@ describe('SpaceCalc', () => {
   test('should convert userAge from years to days', () => {
     expect(reusableCalc.convertAge()).toEqual(2555);
   });
+
+  test('should convert userAge from earth years to mercury years', () => {
+    expect(reusableCalc.mercYears()).toEqual(2);
+  });
 });
