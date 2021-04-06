@@ -17,10 +17,13 @@
 * Javascript
 * Bootstrap
 * CSS
+* Node.js
+* Jest
+* Web Pack
 
 ## Description
 
-Using a barebones UI, the user will input an age. From there the code will then take that age, and create an object that will convert that age to a year (rounded up) for Earth, Mercury, Venus, Mars and Jupiter.  A 2nd object is created and takes a predefined Earth life average and converts it for the other planets. This average is then compared to the users inputted age (based on planet) and determines how many years are left to the user on each planet (with a loop that determines if you should be dead, if so by how many years). This is all then appended to the UI.
+Using a barebones UI, the user will input an age. From there the code will then take that age, and create an object that will convert that age to a year (rounded up) for Earth, Mercury, Venus, Mars and Jupiter.  A 2nd object is created and takes a predefined Earth life average (78) and converts it for the other planets. This is all then appended to the UI.
 
 
 ## Setup/Installation Requirements
@@ -30,6 +33,13 @@ Using your Github account, go to your Gitbash terminal and use the: $git clone h
 Alternatively, follow this link: [SpaceCalcDemo](https://github.com/JuanHasbunZem/SpaceCalcDemo)
 
 Additionally, some node module are required.
+* To install Node and Webpack dependencies, enter into the terminal: $ npm install
+* Once installation is complete, build the program environment with: $ npm run build
+* Finally, to open the application on a developer server in your browser type: $ npm run start
+ * Note: If running this on a PC, open up the package.json file and find the following line: "start": "npm run build; webpack-dev-server......" replace the "build;" with "build & ".
+
+
+
 
 
 ## Known Bugs
