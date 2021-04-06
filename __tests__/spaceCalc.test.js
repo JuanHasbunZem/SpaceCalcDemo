@@ -8,6 +8,6 @@ describe('SpaceCalc', () => {
   });
 
   test('should correctly create a SpaceCalc object', () => {
-    expect(reusableCalc.userAge).toEqual(1);
+    expect(reusableCalc.userAge).toEqual(7);
   });
 });
