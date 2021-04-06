@@ -16,6 +16,10 @@ describe('SpaceCalc', () => {
   });
 
   test('should correctly calculate your age on Venus', () => {
-    expect(reusableCalc.venus).toEqual(1);
+    expect(reusableCalc.venus).toEqual(11);
+  });
+
+  test('should correctly calculate your age on Mars', () => {
+    expect(reusableCalc.mars).toEqual(29);
   });
 });
