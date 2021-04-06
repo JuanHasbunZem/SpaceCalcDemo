@@ -12,5 +12,17 @@ $(document).ready(function() {
     const listOfAges = new SpaceCalc(inputAge, 0, 0, 0, 0, 0);
     const lifeAverages = new LifeAverage(78, 0, 0, 0, 0, 0);
 
+    $("#earthAge").text(`${inputAge}`);
+    $("#mercAge").text(`${listOfAges.mercury}`);
+    $("#venAge").text(`${listOfAges.venus}`);
+    $("#marAge").text(`${listOfAges.mars}`);
+    $("#jupAge").text(`${listOfAges.jupiter}`);
+
+    $("#earAvg").text(`${lifeAverages.earthAvg}`);
+    $("#mercAvg").text(`${lifeAverages.mercuryAvg}`);
+    $("#venAvg").text(`${lifeAverages.venusAvg}`);
+    $("#marAvg").text(`${lifeAverages.marsAvg}`);
+    $("#jupAvg").text(`${lifeAverages.jupiterAvg}`);
+
   });
 });
