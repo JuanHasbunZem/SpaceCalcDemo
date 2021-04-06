@@ -8,6 +8,10 @@ describe('LifeAverage', () => {
   });
 
   test('should correctly create a LifeAverage object', () => {
-    expect(reusableObj.lifeAvg).toEqual(1);
+    expect(reusableObj.lifeAvg).toEqual(78);
+  });
+
+  test('should correctly find the life average on Mercury', () => {
+    expect(reusableObj.mercuryAvg).toEqual(78);
   });
 });
