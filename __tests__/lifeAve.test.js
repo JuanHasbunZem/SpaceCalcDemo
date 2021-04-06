@@ -24,6 +24,6 @@ describe('LifeAverage', () => {
   });
 
   test('should correctly find the life average on Jupiter', () => {
-    expect(reusableObj.jupiterAvg).toEqual(78);
+    expect(reusableObj.jupiterAvg).toEqual(7);
   });
 });
