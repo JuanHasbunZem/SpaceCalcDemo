@@ -24,6 +24,6 @@ describe('SpaceCalc', () => {
   });
 
   test('should correctly calculate your age on Jupiter', () => {
-    expect(reusableCalc.jupiter).toEqual(29);
+    expect(reusableCalc.jupiter).toEqual(1);
   });
 });
