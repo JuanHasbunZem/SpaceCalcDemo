@@ -16,7 +16,10 @@ describe('LifeAverage', () => {
   });
   
   test('should correctly find the life average on Venus', () => {
-    expect(reusableObj.venusAvg).toEqual(78);
+    expect(reusableObj.venusAvg).toEqual(126);
   });
 
+  test('should correctly find the life average on Mars', () => {
+    expect(reusableObj.marsAvg).toEqual(78);
+  });
 });
