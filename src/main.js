@@ -9,8 +9,8 @@ $(document).ready(function() {
   $('#userAge').submit(function(event) {
     event.preventDefault();
     const inputAge = $('#age').val();
-    const listOfAges = new SpaceCalc(inputAge, 0, 0, 0, 0, 0);
-    const lifeAverages = new LifeAverage(78, 0, 0, 0, 0, 0);
+    const listOfAges = new SpaceCalc(inputAge);
+    const lifeAverages = new LifeAverage(78);
 
     $("#earthAge").text(`${inputAge}`);
     $("#mercAge").text(`${listOfAges.mercury}`);
@@ -18,7 +18,7 @@ $(document).ready(function() {
     $("#marAge").text(`${listOfAges.mars}`);
     $("#jupAge").text(`${listOfAges.jupiter}`);
 
-    $("#earAvg").text(`${lifeAverages.earthAvg}`);
+    $("#earAvg").text("78");
     $("#mercAvg").text(`${lifeAverages.mercuryAvg}`);
     $("#venAvg").text(`${lifeAverages.venusAvg}`);
     $("#marAvg").text(`${lifeAverages.marsAvg}`);
