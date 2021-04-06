@@ -4,12 +4,33 @@
   <title>Space Age Calculator</title>
 </head>
 <body>
-  <h2>Enter your age to find our your age on other worlds!</h2>
-  <form id="userAge">
-    <label for="age">How old are you? </label>
-    <input id="age" type="number">
-    <button type="submit">Submit</button>
-  </form>
-  <ul id="listAges"></ul>
+  <div id="userInput">
+    <h2>Enter your age to find our your age on other worlds!</h2>
+    <form id="userAge">
+      <label for="age">How old are you? </label>
+      <input id="age" type="number">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="results">
+    <h2>Your calculated Ages are (based on being <span id="earthAge"></span> Earth years old):</h2>
+      <ol>
+        <li>Age on Mercury: <span id="mercAge"></span> years old.</li>
+        <li>Age on Venus: <span id="venAge"></span> years old.</li>
+        <li>Age on Mars: <span id="marAge"></span> years old.</li>
+        <li>Age on Jupiter: <span id="jupAge"></span> years old.</li>
+      </ol>
+    <h2>Incidently, your expected life averages are:</h2>
+      <ol>
+        <li>On Earth: <span id="earAvg"></span> years old.</li>
+        <li>On Mercury: <span id="mercAvg"></span> years old.</li>
+        <li>On Venus: <span id="venAvg"></span> years old.</li>
+        <li>On Mars: <span id="marAvg"></span> years old.</li>
+        <li>On Jupiter: <span id="jupAvg"></span> years old.</li>
+      </ol>
+  </div>
+    
+
+
 </body>
 </html>
