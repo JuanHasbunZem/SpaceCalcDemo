@@ -1,6 +1,6 @@
 # Space Age Calculator (TDD Demo)
 
-#### 
+#### This project is to demonstrate my ability to set up an envirnoment via node webpacks to create projects and to test my code (via Jest) using TDD standards.
 
 #### Created by: Juan Hasbun
 
@@ -20,10 +20,12 @@
 
 ## Description
 
+Using a barebones UI, the user will input an age. From there the code will then take that age, and create an object that will convert that age to a year (rounded up) for Earth, Mercury, Venus, Mars and Jupiter.  A 2nd object is created and takes a predefined Earth life average and converts it for the other planets. This average is then compared to the users inputted age (based on planet) and determines how many years are left to the user on each planet (with a loop that determines if you should be dead, if so by how many years). This is all then appended to the UI.
+
 
 ## Setup/Installation Requirements
 
-Using your Github account, go to your Gitbash terminal and use the: $git clone https://github.com/JuanHasZem/third_demo command to download a copy of the files used for this project. Then open the file labeled index.html to open the website and test the page out.
+Using your Github account, go to your Gitbash terminal and use the: $git clone https://github.com/JuanHasZem/SpaceCalcDemo command to download a copy of the files used for this project. Then open the file labeled index.html to open the website and test the page out.
 
 Alternatively, follow this link: [SpaceCalcDemo](https://github.com/JuanHasbunZem/SpaceCalcDemo)
 
@@ -46,7 +48,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contact Information
 
 Email at: <zemenareq@hotmail.com>
-
-## Plan
-
-Initial "blueprint" before creating tests (changes may/will occur):

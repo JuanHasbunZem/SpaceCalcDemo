@@ -15,4 +15,13 @@ describe('LifeAverage', () => {
     expect(reusableObj.marsAvg).toEqual(4);
     expect(reusableObj.jupiterAvg).toEqual(5);
   });
+
+  test('should correctly create convert life averages for each planet', () => {
+    reusableObj.convertLifeAvgs();
+    expect(reusableObj.earthAvg).toEqual(78);
+    expect(reusableObj.mercuryAvg).toEqual(325);
+    expect(reusableObj.venusAvg).toEqual(126);
+    expect(reusableObj.marsAvg).toEqual(41);
+    expect(reusableObj.jupiterAvg).toEqual(7);
+  });
 });

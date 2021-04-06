@@ -1,12 +1,11 @@
 export default class SpaceCalc {
-  constructor(userAge, earth, mercury, venus, mars, jupiter, avgLife) {
+  constructor(userAge, earth, mercury, venus, mars, jupiter) {
     this.userAge = userAge;
     this.earth = earth;
     this.mercury = mercury;
     this.venus = venus;
     this.mars = mars;
     this.jupiter = jupiter;
-    this.avgLife = avgLife;
   }
 
   convertAge() {

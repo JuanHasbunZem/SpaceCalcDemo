@@ -22,6 +22,6 @@ describe('SpaceCalc', () => {
     expect(reusableCalc.mercury).toEqual(29);
     expect(reusableCalc.venus).toEqual(11);
     expect(reusableCalc.mars).toEqual(4);
-    expect(reusableCalc.jupiter).toEqual(1)
+    expect(reusableCalc.jupiter).toEqual(1);
   });
 });
