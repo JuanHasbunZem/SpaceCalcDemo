@@ -24,5 +24,7 @@ $(document).ready(function() {
     $("#marAvg").text(`${lifeAverages.marsAvg}`);
     $("#jupAvg").text(`${lifeAverages.jupiterAvg}`);
 
+    checkLife(inputAge);
+
   });
 });

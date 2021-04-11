@@ -26,4 +26,9 @@ describe('LifeAverage', () => {
   test('should correctly find the life average on Jupiter', () => {
     expect(reusableObj.jupiterAvg).toEqual(7);
   });
+
+  test('Should correctly compare each life expectancy, then display the difference of user input with lifeAvg', () => {
+    expect(checkLife(77)).toEqual("You have 1 year left!");
+  });
+  
 });
