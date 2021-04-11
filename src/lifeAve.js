@@ -6,7 +6,4 @@ export default class LifeAverage {
     this.marsAvg = Math.round(this.lifeAvg / 1.88);
     this.jupiterAvg = Math.round(this.lifeAvg / 11.86);
   }
-
-  checkLife() {
-  }
 }
