@@ -37,6 +37,7 @@ Additionally, some node module are required.
 * Once installation is complete, build the program environment with: $ npm run build
 * Finally, to open the application on a developer server in your browser type: $ npm run start
  * Note: If running this on a PC, open up the package.json file and find the following line: "start": "npm run build; webpack-dev-server......" replace the "build;" with "build & ".
+ * Additionally, if you wish to test the code you enter ``$ npm run test`` this will run Jest on the program and check if the tests (stored in the __tests__ folder) work or not, as well as displays what % of the code is tested.
 
 
 
